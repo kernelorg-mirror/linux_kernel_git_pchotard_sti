@@ -31,6 +31,7 @@ static void sti_l2_write_sec(unsigned long val, unsigned reg)
 	 */
 }
 
+
 DT_MACHINE_START(STM, "STi SoC with Flattened Device Tree")
 	.dt_compat	= stih41x_dt_match,
 	.l2c_aux_val	= L2C_AUX_CTRL_SHARED_OVERRIDE |
